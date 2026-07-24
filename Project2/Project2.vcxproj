@@ -124,7 +124,15 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClInclude Include="CarRecord.h" />
+    <ClInclude Include="Radar.h" />
+    <ClInclude Include="SeatbeltRule.h" />
+    <ClInclude Include="SpeedRule.h" />
+    <ClInclude Include="TrafficFine.h" />
+    <ClInclude Include="TrafficRule.h" />
     <ClInclude Include="Violation.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
