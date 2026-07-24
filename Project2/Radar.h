@@ -1,3 +1,4 @@
+#pragma once
 
 #include <vector>
 #include <map>
@@ -17,7 +18,7 @@ private:
 public:
     void addRule(TrafficRule* rule);
 
-    void process(const CarRecord& car);
+    void process( CarRecord& car);
 
     void printAllFines();
 

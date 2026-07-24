@@ -1,3 +1,4 @@
+#pragma once
 
 #include <vector>
 #include <string>
@@ -19,10 +20,10 @@ public:
 
     void addViolation(Violation v);
 
-    int getTotalAmount() const;
+    int getTotalAmount() ;
 
-    string getPlateNumber() const;
+    string getPlateNumber() ;
 
-    void print() const;
+    void print() ;
 };
 

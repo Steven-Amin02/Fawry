@@ -132,7 +132,13 @@
     <ClInclude Include="Violation.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="CarRecord.cpp" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="Radar.cpp" />
+    <ClCompile Include="SeatbeltRule.cpp" />
+    <ClCompile Include="SpeedRule.cpp" />
+    <ClCompile Include="TrafficFine.cpp" />
+    <ClCompile Include="Violation.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

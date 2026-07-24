@@ -1,3 +1,4 @@
+#pragma once
 
 #include <string>
 using namespace std;
@@ -11,6 +12,6 @@ private:
 public:
     Violation(string desc, int fine);
 
-    string getDescription() const;
-    int getFineAmount() const;
+    string getDescription() ;
+    int getFineAmount() ;
 };

@@ -1,3 +1,4 @@
+#pragma once
 
 #include <string>
 using namespace std;
@@ -14,9 +15,9 @@ private:
 public:
     CarRecord(string plate, string d, string type, int s, bool seatbelt);
 
-    string getPlateNumber() const;
-    string getDate() const;
-    string getCarType() const;
+    string getPlateNumber() ;
+    string getDate() const ;
+    string getCarType() const ;
     int getSpeed() const;
     bool isSeatbeltFastened() const;
 };
